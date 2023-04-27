@@ -12,7 +12,7 @@ function Game() {
   const [winner, setWinner] = useState(null);
   const [stepNumber, setStepNumber] = useState(0);
 
-  //Declaring a Winner
+  //Declaring the Winner
   useEffect(() => {
     const newWinner = calculateWinner(history[history.length - 1].squares);
     setWinner(newWinner);
