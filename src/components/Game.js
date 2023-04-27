@@ -97,7 +97,7 @@ function Game() {
         <History history={history} jumpTo={jumpTo} />
       </div>
       <button onClick={handlRestart} className="restart-btn">
-        Restart
+        Play Again?
       </button>
     </div>
   );

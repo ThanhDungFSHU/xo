@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
@@ -109,4 +110,10 @@ body {
   cursor: pointer;
   border: 1px solid #3787ce;
   border-radius: 4px;
+}
+.restart-btn:hover {
+  filter: brightness(120%);
+}
+.history button:hover {
+  filter: brightness(120%);
 }
